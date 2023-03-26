@@ -61,7 +61,46 @@ function writeToFile(fileName, data) {
 }
 
 // TODO: Create a function to initialize app
-function init() {}
-
+function init() {
+    inquirer.prompt(questions)
+      .then((data) => {
+        const readme = `# ${data.title}
+  
+  ## Description
+  ${data.description}
+  
+  ## Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
+  
+  ## Installation
+  ${data.installation}
+  
+  ## Usage
+  ${data.usage}
+  
+  ## License
+  [![License](https://img.shields.io/badge/license-${data.license}-green)](https://opensource.org/licenses/${data.license})
+  This project is covered under the ${data.license} license.
+  
+  ## Contributing
+  ${data.contributing}
+  
+  ## Tests
+  ${data.tests}
+  
+  ## Questions
+  For additional questions or feedback, please contact me via email at ${data.email}. You can also follow my GitHub profile at [https://github.com/${data.github}](https://github.com/${data.github}).
+  
+  `;
+        writeToFile('README.md', readme);
+      })
+      .catch((err) => console.error(err));
+  }
+  
 // Function call to initialize app
 init();
