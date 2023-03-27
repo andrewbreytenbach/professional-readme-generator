@@ -68,7 +68,7 @@ Once all of the prompts have been entered, a new markdown file has been created 
 
 ![New README](/images/newREADME.png "New README")
 
-Here is a video showing exactly how to use the app: [https://github.com/andrewbreytenbach]
+Here is a video showing exactly how to use the app: [https://drive.google.com/file/d/15ldxBpf-3XkUsPTOxo20DT-SAgT3Ocxq/view?usp=share_link]
 
 
 
