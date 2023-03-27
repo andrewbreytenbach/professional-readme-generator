@@ -56,7 +56,7 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) =>
-    err ? console.error(err) : console.log('README.md file has been created successfully!')
+    err ? console.error(err) : console.log('newREADME.md file has been created successfully!')
   );
 }
 
@@ -97,7 +97,7 @@ function init() {
   For additional questions or feedback, please contact me via email at ${data.email}. You can also follow my GitHub profile at [https://github.com/${data.github}](https://github.com/${data.github}).
   
   `;
-        writeToFile('README.md', readme);
+        writeToFile('newREADME.md', readme);
       })
       .catch((err) => console.error(err));
   }
