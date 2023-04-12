@@ -68,7 +68,7 @@ Once all of the prompts have been entered, a new markdown file has been created 
 
 ![New README](/images/newREADME.png "New README")
 
-Here is a video showing exactly how to use the app: [https://drive.google.com/file/d/15ldxBpf-3XkUsPTOxo20DT-SAgT3Ocxq/view?usp=share_link]
+Here is a video showing exactly how to use the app: [https://drive.google.com/file/d/1X6hTi3emIxh4E4Q-yzCFIQrRDgZyK1Zq/view]
 
 
 
@@ -80,7 +80,7 @@ This repo is not distributed under any particular license.
 
 * [https://github.com/andrewbreytenbach] (Andrew Breytenbach) 
 
-Project Link: [https://andrewbreytenbach.github.io/movie-book-match/] (Professional README Generator)
+Project Link: [https://github.com/andrewbreytenbach/professional-readme-generator] (Professional README Generator)
 
 ## Acknowledgments
 
